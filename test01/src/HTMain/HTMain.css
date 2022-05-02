@@ -1,0 +1,8 @@
+.HTMain {
+    text-align: center;
+}
+
+.HTMain-logo {
+    height: 40Vmin;
+    pointer-events: none;
+}
