@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://www.ht.co.kr/ -->
+<html style="overflow: hidden; height: 100%;" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths fp-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>해태제과</title>
+    <meta http-equiv="Refresh" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="p:domain_verify" content="affc81592f162d77b11a8b7dd59d0d83">
+      <link rel="icon" href="http://www.ht.co.kr/rs/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="./해태제과_files/normalize.css">
+    <link rel="stylesheet" href="./해태제과_files/common.css">  
+    <link rel="stylesheet" href="./해태제과_files/main.css">   
+
+	<!-- // 네이버 연관검색어 설정 추가 (18.11.01, 최진우) // -->
+	<meta name="naver-site-verification" content="5d42fa4f463a2e7c184fd910aafb91d9320b3149">
+    
+    <script src="./해태제과_files/sdk.js.다운로드" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="./해태제과_files/sdk.js(1).다운로드"></script><script async="" src="./해태제과_files/analytics.js.다운로드"></script><script src="./해태제과_files/jquery-1.9.0.min.js.다운로드"></script>
+    <script src="./해태제과_files/jquery-ui.min.js.다운로드"></script>
+    
+    <script src="./해태제과_files/jquery.easing.js.다운로드"></script>
+    <script type="text/javascript" src="./해태제과_files/jquery.fullPage.js.다운로드"></script>
+    <script type="text/javascript" src="./해태제과_files/TweenMax.min.js.다운로드"></script>
+    <script type="text/javascript" src="./해태제과_files/swipe.js.다운로드"></script> 
+    <script type="text/javascript" src="./해태제과_files/jqueryCustomSelect.js.다운로드"></script>     
+    <script type="text/javascript" src="./해태제과_files/common.js.다운로드"></script>
+    <script type="text/javascript" src="./해태제과_files/main.js.다운로드"></script>
+    <script type="text/javascript" src="./해태제과_files/common_dev.js.다운로드"></script> 
+    <!--[if lt IE 10]>
+        <script type="text/javascript">
+            var console = { log: function() {} };
+            $(function(){ $('body').addClass('oldie'); });  
+        </script>       
+        <script type="text/javascript" src="/rs/js/lib/html5.js"></script>  
+        <link rel="stylesheet" href="/rs/css/main-ie.css">   
+    <![endif]-->
+    <!--[if IE 9]>
+        <script type="text/javascript">
+            $(function(){ $('body').addClass('ie9'); });    
+        </script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+        <style>
+        .img-wrap{margin-top:0px}
+        .H834 .honeyworld{margin-bottom:-396px}
+        .H834 .img-wrap{margin-top:60px}
+        .H660 .img-wrap{margin-top:20px}
+        .H834 .snack1{margin-top:50px}
+        .H950 .img-wrap{margin-top:0px}
+        .H950.H870 .img-wrap{margin-top:-15px}
+        </style>
+    <![endif]-->
+    <!--[if (gte IE 9)|!(IE)]>
+        <script type="text/javascript">
+            $(function(){ $('body').removeClass('oldie'); });
+        </script>
+    <![endif]-->    
+        
+    <script type="text/javascript">
+   
+    function notice_getCookie( name ) {
+        var nameOfCookie = name + "=";
+        var x = 0;
+        while ( x <= document.cookie.length ) {
+        var y = (x+nameOfCookie.length);
+            if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+                 if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
+                endOfCookie = document.cookie.length;
+                 return unescape( document.cookie.substring( y, endOfCookie ) );
+            }
+            x = document.cookie.indexOf( " ", x ) + 1;
+            if ( x == 0 )
+                 break;
+        }
+        return "";
+    }
+
+    var isPopup = 'true';
+    var isSecondsPopup = 'true';
+    if(isPopup == 'true') {
+        var w = 380;    //팝업창의 너비
+        var h = 374;    //팝업창의 높이
+
+        //중앙위치 구해오기
+        // var LeftPos = (screen.availWidth-w)/2;
+        // var TopPos = (screen.availHeight -h)/2 - 40;
+        // 150916 광고주요청 위치 수정
+        var LeftPos = (screen.availWidth-w)/2 - 360;
+        var TopPos = 187;
+        /*if (notice_getCookie("20150819") != "done") {
+            window.open("/popup01.pop", "20150819", "menubar=0,resizable=0,scrollbars=no,width=380,height=374,left=10,top=10");
+        }*/
+
+    }
+
+    if(isSecondsPopup == 'true') {
+        var w = 449;    //팝업창의 너비
+        var h = 600;    //팝업창의 높이      
+        var LeftPos = (screen.availWidth-w)/2;
+        var TopPos = 187;
+        /*if (notice_getCookie("20151230") != "done") {
+            window.open("/rs/popup/20151230/popup.html", "20151230", "menubar=0,resizable=0,scrollbars=no,width=449,height=600,left=10,top=10");
+        }*/
+
+        /*if (notice_getCookie("20160114") != "done") {
+            window.open("/rs/popup/20160114/popup.html", "20160114", "menubar=0,resizable=0,scrollbars=no,width=450,height=624,left=10,top=10");
+        }*/
+
+        /*if (notice_getCookie("20160202") != "done") {
+            window.open("/rs/popup/20160202/popup.html", "20160114", "menubar=0,resizable=0,scrollbars=no,width=580,height=607,left=10,top=10");
+        }*/
+        /* if (notice_getCookie("20160314") != "done") {
+            window.open("/rs/popup/20160314/popup.html", "20160314", "menubar=0,resizable=0,scrollbars=no,width=380,height=380,left=10,top=10");
+        } */
+        /* if (notice_getCookie("20160616") != "done") {
+            window.open("http://event.ht.co.kr/popup/20160616_contest/contest_20160616.aspx", "20160616", "menubar=0,resizable=0,scrollbars=no,width=480,height=681,left=10,top=10");
+        }
+        if (notice_getCookie("20160720") != "done") {
+            window.open("http://www.ht.co.kr/popup/20160720_recruit/20160720_recruit.aspx", "20160720", "menubar=0,resizable=0,scrollbars=no,width=400,height=386,left=500,top=10");
+        }
+        if (notice_getCookie("20160720_2") != "done") {
+            window.open("/rs/popup/20160720/popup.html", "20160720_2", "menubar=0,resizable=0,scrollbars=no,width=406,height=508,left=910,top=10");
+        } */
+		 /*if (notice_getCookie("20161202") != "done") {
+            window.open("http://www.ht.co.kr/popup/201612_monitor/monitor.aspx", "20161202", "menubar=0,resizable=0,scrollbars=no,width=406,height=508,left=630,top=10");
+        }*/
+
+		 /*if (notice_getCookie("20161222") != "done") {
+            window.open("http://www.ht.co.kr/popup/201612_contest/20161222_contest.aspx", "20161222", "menubar=0,resizable=0,scrollbars=no,width=600,height=350,left=10,top=10");
+        }*/
+
+		/*
+		if (notice_getCookie("20180327") != "done") {
+            window.open("http://www.ht.co.kr/popup/201803_gkids/gkids.htm", "20180327", "menubar=0,resizable=0,scrollbars=no,width=400,height=500,left=10,top=10");
+        }
+		*/
+    }
+    
+    </script>
+    
+<style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head>
+
+<body class="Main desktop H849 fp-viewing-haitaiMain H950 H870" style="zoom: 1; height: 100%; overflow: hidden; font-size: 100%;">
+
+	<!-- // 연관검색어 설정 시작 (18.11.01, 최진우) // -->
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Person",
+			"name": "해태제과",
+			"url": "http://www.ht.co.kr",
+			"sameAs": [
+					"https://www.facebook.com/HaitaiCo",
+					"https://www.instagram.com/haitai_co/",
+					"http://blog.naver.com/htlatte",
+					"https://www.youtube.com/c/Haitaico"
+				]
+		}
+	</script>
+	<!-- // 연관검색어 설정 종료 // -->
+
+    <!-- div id="loadingBar">
+    <img src="/rs/images/main/bg/bg-loading.jpg" alt=" " class="bgbg" />
+        <div class="loadingTxt">
+            <img src="/rs/images/main/bg/loading.gif" alt="loading" class="loading"/>
+        </div>  
+    </div><!-- // #loadingBar e -->
+    
+    <form name="searchFrm" id="searchFrm" method="post">
+        <input type="hidden" name="searchTxt" id="totalSearchTxt">
+    </form>
+    
+    <form name="downLoadForm" id="downLoadForm" method="post" action="http://www.ht.co.kr/common/downloadFile">
+        <input type="hidden" name="fileOriName">
+        <input type="hidden" name="fileName">
+        <input type="hidden" name="filePath">
+    </form>
+
+
+    <div id="wrap">
+            <div class="main-header" id="main-header">
+                <div class="main-header-wrap clearfix">
+                    <h1 class="fl"><a href="http://www.ht.co.kr/" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/logo.png" alt="해태제과" class="logo" style="outline: none;"></a></h1>          
+                    <div class="nav fl">
+                        <ul class="clerfix">
+                            <li class="headernav0">
+                                <a href="javascript:navBorder(0,0);" class="header-nav nav1 uhover" data-link="about" onfocus="this.blur()" style="outline: none;">
+                                    <span><img src="./해태제과_files/gnb0.png" alt="제품소개" style="outline: none;"></span><img src="./해태제과_files/gnb-border.png" alt=" " class="gnb-border" style="outline: none;">
+                                </a>
+                            </li>
+                            <li class="headernav1">
+                                <a href="javascript:navBorder(1,0);" class="header-nav nav2 uhover" data-link="honeyworld" onfocus="this.blur()" style="outline: none;">
+                                    <span><img src="./해태제과_files/gnb1.png" alt="달콤한 세상" style="outline: none;"></span><img src="./해태제과_files/gnb-border.png" alt=" " class="gnb-border" style="outline: none;">
+                                </a>
+                            </li>
+                            <li class="headernav2">
+                                <a href="javascript:navBorder(2,0);" class="header-nav nav3 uhover" data-link="event" onfocus="this.blur()" style="outline: none;">
+                                    <span><img src="./해태제과_files/gnb2.png" alt="이벤트" style="outline: none;"></span><img src="./해태제과_files/gnb-border.png" alt=" " class="gnb-border" style="outline: none;">
+                                </a>
+                            </li>
+                            <li class="headernav3">
+                                <a href="javascript:navBorder(3,0);" class="header-nav nav4 uhover" data-link="customer" onfocus="this.blur()" style="outline: none;">
+                                    <span><img src="./해태제과_files/gnb3.png" alt="고객센터" style="outline: none;"></span><img src="./해태제과_files/gnb-border.png" alt=" " class="gnb-border" style="outline: none;">
+                                </a>
+                            </li>       
+                            <li class="headernav4 last-child">
+                                <a href="javascript:navBorder(4,0);" class="header-nav nav5 uhover" data-link="company" onfocus="this.blur()" style="outline: none;">
+                                    <span><img src="./해태제과_files/gnb4.png" alt="회사소개" style="outline: none;"></span><img src="./해태제과_files/gnb-border.png" alt=" " class="gnb-border" style="outline: none;">
+                                </a>
+                            </li>       
+                        </ul>
+                    </div>
+                    <div class="navright fr">
+                        <ul class="clearfix">
+                            <li class="headersitemap"><a href="http://www.ht.co.kr/service/sitemap" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/gnb5.png" alt="SITE MAP" style="outline: none;"></a></li>
+                            <li class="headereng"><a href="http://www.ht.co.kr/eng/main" target="_blank" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/gnb6.png" alt="ENGLISH" style="outline: none;"></a></li>                          
+                        </ul>
+                        <label for="search" class="hidden">검색</label>
+                        <input type="text" name="search" class="i_text4 focusin fl mgt10" id="search" value="" onfocus="javascript:searchfocus(0);" onblur="javascript:searchfocus(1);" title="검색">
+                    </div>
+                </div>              
+            </div><!-- // .main-header e -->
+            <div class="bg-subNav" onclick="javascript: closeNav();" style="">
+                <div class="subNav_wrap clerfixed">          
+                    <!-- div class="img-subNav fl">
+                        <img src="/rs/images/common/img_subNav0.png" alt="회사소개">
+                    </div -->
+                    <div class="img-subNav fl" style="display: none;">
+                        <img src="./해태제과_files/img_subNav00.png" alt="제품소개" class="imgSubNav imgSubNav0">
+                        <img src="./해태제과_files/img_subNav10.png" alt="달콤한세상" class="imgSubNav imgSubNav1">
+                        <img src="./해태제과_files/img_subNav20.png" alt="이벤트" class="imgSubNav imgSubNav2">
+                        <img src="./해태제과_files/img_subNav30.png" alt="고객센터" class="imgSubNav imgSubNav3">
+                        <img src="./해태제과_files/img_subNav40.png" alt="회사소개" class="imgSubNav imgSubNav4">
+                    </div>
+                        
+                    <div class="nav_wrap fl">
+                        <ul class="clerfix">
+                            <li>
+                                <ul class="subNav" style="display: none;">
+                                    <li><a href="http://www.ht.co.kr/product/honey" onfocus="this.blur()" style="outline: none;">해태제과 캐릭터</a></li>
+                                    <li><a href="http://www.ht.co.kr/product/list?searchProductCode=A00000" onfocus="this.blur()" style="outline: none;">비스켓</a></li>
+                                    <li><a href="http://www.ht.co.kr/product/list?searchProductCode=B00000" onfocus="this.blur()" style="outline: none;">스낵</a></li>
+                                    <li><a href="http://www.ht.co.kr/product/list?searchProductCode=C00000" onfocus="this.blur()" style="outline: none;">껌</a></li>
+                                    <li><a href="http://www.ht.co.kr/product/list?searchProductCode=D00000" onfocus="this.blur()" style="outline: none;">초코</a></li>
+                                    <li><a href="http://www.ht.co.kr/product/list?searchProductCode=E00000" onfocus="this.blur()" style="outline: none;">캔디</a></li>
+                                    <!-- <li><a href="/product/list?searchProductCode=F00000">아이스크림</a></li> -->
+                                    <li><a href="http://www.ht.co.kr/product/list?searchProductCode=G00000" onfocus="this.blur()" style="outline: none;">식품</a></li>
+                                    <li><a href="http://www.ht.co.kr/product/list" onfocus="this.blur()" style="outline: none;">전체제품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="subNav" style="display: none;">
+                                    <li><a href="http://www.ht.co.kr/sweet/cf/view" onfocus="this.blur()" style="outline: none;">CF</a></li>
+                                    <li><a href="http://www.ht.co.kr/sweet/bravo" onfocus="this.blur()" style="outline: none;">아이부라보</a></li>
+                                    <li><a href="http://www.ht.co.kr/sweet/noticeList" onfocus="this.blur()" style="outline: none;">공지사항</a></li>
+                                    <li><a href="http://www.ht.co.kr/sweet/reportList" onfocus="this.blur()" style="outline: none;">해태뉴스</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="subNav" style="display: none;">
+                                    <li><a href="http://www.ht.co.kr/event/eventList" onfocus="this.blur()" style="outline: none;">진행 중 이벤트</a></li>
+                                    <li><a href="http://www.ht.co.kr/event/postList" onfocus="this.blur()" style="outline: none;">지난 이벤트</a></li>
+                                    <li><a href="http://www.ht.co.kr/event/winnerList" onfocus="this.blur()" style="outline: none;">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="subNav" style="display: none;">
+                                    <li class="customervoice"><a href="http://www.ht.co.kr/customer/faq" onfocus="this.blur()" style="outline: none;">고객의소리</a></li>
+									<!--<li class="customervoice"><a href="http://www.haitaiic.co.kr/bbs/qawrite.php" onclick="alert('해태아이스크림 고객센터 페이지로 이동합니다.');">고객의소리<br>[아이스크림]</a></li>--> <!-- 20220328 링크 삭제 -->
+                                    <li><a href="http://www.ht.co.kr/customer/idea" onfocus="this.blur()" style="outline: none;">아이디어 제안</a></li>
+                                    <li><a href="http://www.ht.co.kr/customer/qna" onfocus="this.blur()" style="outline: none;">Q&amp;A</a></li>
+                                </ul>
+                            </li>       
+                            <li>
+                                <ul class="subNav" style="display: none;">
+                                    <li><a href="http://www.ht.co.kr/introduce/ceo" onfocus="this.blur()" style="outline: none;">회장 인사말</a></li>
+                                    <li><a href="http://www.ht.co.kr/introduce/introduce/introduce" onfocus="this.blur()" style="outline: none;">해태 소개</a></li>
+                                    <li><a href="http://www.ht.co.kr/introduce/ethical/ethical" onfocus="this.blur()" style="outline: none;">윤리 경영</a></li>
+                                    <li><a href="http://www.ht.co.kr/introduce/network/factory" onfocus="this.blur()" style="outline: none;">해태 네트워크</a></li>
+                                    <li><a href="http://www.ht.co.kr/introduce/map" onfocus="this.blur()" style="outline: none;">오시는 길</a></li>
+                                    <li><a href="http://recruit.ht.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">채용</a></li>
+                                    <li><a href="http://www.ht.co.kr/introduce/irboard/electroniclist" onfocus="this.blur()" style="outline: none;">IR정보</a></li>
+                                </ul>
+                            </li>       
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header e -->
+
+            <div id="slideNav">             
+                <ul class="slideNav-wrap">
+                    <li data-menuanchor="haitaiMain" class="active"><a class="slideNav0" href="javascript:slideMovto(1)" title="Haitai Main" onfocus="this.blur()" style="outline: none;"></a></li>
+                    <li data-menuanchor="company"><a class="slideNav1" href="javascript:slideMovto(2)" title="Company" onfocus="this.blur()" style="outline: none;"></a></li>
+                    <li data-menuanchor="bannerPage"><a class="slideNav2" href="javascript:slideMovto(3)" title="Banner Page" onfocus="this.blur()" style="outline: none;"></a></li>
+                    <li data-menuanchor="honeyStory"><a class="slideNav3" href="javascript:slideMovto(4)" title="Honey Story" onfocus="this.blur()" style="outline: none;"></a></li>
+                    <li data-menuanchor="honeyStory2"><a class="slideNav4" href="javascript:slideMovto(5)" title="Honey Series" onfocus="this.blur()" style="outline: none;"></a></li>
+                    <li data-menuanchor="sweetNews"><a class="slideNav5" href="javascript:slideMovto(6)" title="Sweet News" onfocus="this.blur()" style="outline: none;"></a></li>
+                    <li data-menuanchor="haitaiLink"><a class="slideNav6" href="javascript:slideMovto(7)" title="Haitai Link" onfocus="this.blur()" style="outline: none;"></a></li>             
+                </ul>
+            </div><!-- // #slideNav e -->
+        
+        <div class="static staticImg active" style="top: 0px;">
+            <div class="imgsContainer">
+                <img src="./해태제과_files/bg-main0720.jpg" alt=" " class="loadbg" style="width: 2200px; height: 860px; margin-left: -1100px; display: none;">
+                <img src="./해태제과_files/bg-main0-0.png" alt=" " class="mainvisual mainvisual0 cloud" style="opacity: 1; left: 50%;">
+                <img src="./해태제과_files/bg-main0-1.png" alt=" " class="mainvisual mainvisual1 cloud" style="opacity: 1; left: 50%;">
+                <img src="./해태제과_files/bg-main0-2.png" alt=" " class="mainvisual mainvisual2 cloud" style="opacity: 1; left: 50%;">
+                <div class="mainvisual3"><img src="./해태제과_files/bg-main0-3-0.png" alt=" " style="top: -1496px;"></div>
+                <img src="./해태제과_files/bg-main0-4-0.png" alt=" " class="mainvisual4">
+                <img src="./해태제과_files/bg-main0-2.png" alt=" " class="mainvisual mainvisual5 cloud1">
+                <img src="./해태제과_files/bg-main0-1.png" alt=" " class="mainvisual mainvisual6 cloud1">
+                <img src="./해태제과_files/bg-main0-2.png" alt=" " class="mainvisual mainvisual7 cloud1">
+                <img src="./해태제과_files/bg-main0-5.png" alt=" " class="mainvisual mainvisual8" style="top: 132px;">
+                <a href="javascript:slideMovto(2)" class="btn-scrolldown" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/btn-scrolldown.png" alt="scroll" style="outline: none;"></a>  
+                <!-- div class="mainvisual mainvisual9"><img src="/rs/images/main/bg/bg-main0-6.png" alt=" "></div -->
+                <div class="anime-main-txt"><img src="./해태제과_files/bg-txt.png" alt="달콤한 세상으로의 초대" style="top: -5712px;"></div>        
+            </div>
+            
+        </div><!-- // .staticImg e slide0 꿀동산 이미지 -->
+        
+
+        <div class="static staticBgHoney" style="min-height: 500px; top: 100%; opacity: 1;">
+            <img src="./해태제과_files/bg-main3.jpg" alt=" " class="bg">
+            <div class="honeycont">
+                <h2 class="caption smallmargin"><img src="./해태제과_files/tit-main2-0.png" alt="Honey Story"></h2>
+                <h3 class="caption smallmargin"><img src="./해태제과_files/txt-main2-0.png" alt="재료의 풍미를 살리는 아카시아 꿀과 해태제과가 만나 탄생한 새로운 달콤함! 해태제과의 오리지널 허니 시리즈들과 함께 새로운 달콤함을 즐기세요!"></h3>                  
+                <h4 class="caption sub-left" style="opacity: 0;">
+                    <div class="bulb sub-maskimg"><img src="./해태제과_files/img-main2-0-0-1.png" alt=" "></div>
+                    <img src="./해태제과_files/txt-main2-0-0.png" alt="New Sweet" class="subtit">
+                    <span class="subtxt">
+                        <img src="./해태제과_files/txt-main2-0-0-0.png" alt="새로운 달콤함을 찾아라!어떻게 새로운 달콤함을 만들어 낼까?해태제과는 세상에 없던 새로운 달콤한 맛을 찾기로 했어요! ">
+                    </span>
+                </h4>
+                <h4 class="caption sub-right" style="opacity: 0;">
+                   <div class="pot sub-maskimg"> <img src="./해태제과_files/img-main2-0-1-1.png" alt=" "></div>
+                    <img src="./해태제과_files/txt-main2-0-1.png" alt="Haitai Sweet" class="subtit">
+                    <span class="subtxt">
+                        <img src="./해태제과_files/txt-main2-0-1-0.png" alt="일만오천 시간이 넘게! 고민을 하고, 일천오백 봉지가 넘게! 맛을 보고 드디어 탄생한 해태 오리지널 허니 시리즈!해태제과의 새로운 달콤함을 만나보세요!">
+                    </span> 
+                </h4>
+            </div>
+            
+            <!-- //.honeycont e -->
+            <div class="snackcont">
+                <h2 class="caption smallmargin4"><img src="./해태제과_files/tit-main2-1_new.png" alt="Honey Story"></h2>
+                <h3 class="caption smallmargin4">
+                    <img src="./해태제과_files/txt-main2-1_new.png" alt="재료의 풍미를 살리는 아카시아 꿀과 해태제과가 만나 탄생한 새로운 달콤함! 해태제과의 오리지널 허니 시리즈들과 함께 새로운 달콤함을 즐세요!">
+                </h3>
+                <a href="http://www.ht.co.kr/product/honey" class="btn-gohoneyvillage uhover smallmargin6" onfocus="this.blur()" style="outline: none; opacity: 0;"><img src="./해태제과_files/btn-gohoneyvillage_new.png" alt="허니시리즈 바로가기" style="outline: none;"></a>           
+            </div>
+            <!-- //.snackcont e -->
+            
+            <div class="static staticHoney" style="left: 0px;">        
+                <div class="hsContainer">
+                    <div class="cont-fst clearfix">                         
+                        <div class="honeyworld">
+                            <img src="./해태제과_files/img-bg-main2-0.png" alt="honeyworld" class="worldbg">
+                            <div class="bee beegif"><img src="./해태제과_files/img-bee0.png" alt=" " class=" " style="top: -2850px;"></div>
+                            <div class="honeypot beegif"><img src="./해태제과_files/img-bg-main2-0-0.png" alt=" " class=" " style="top: -7220px;"></div>
+                            <div class="honeybee beegif"><img src="./해태제과_files/img-honeybee0.png" alt=" " class=" " style="top: -2812px;"></div>
+                            <img src="./해태제과_files/img-bg-main2-0-1.png" alt=" " class="honeybeepot">                            
+                        </div>
+                    </div><!-- //.cont-fst e -->                    
+                </div>  
+            </div><!-- //.staticHoney e -->
+
+            <div class="static staticSnack">
+                <div class="hsContainer">                       
+                    <div class="cont-snd">                  
+                        <!-- <div class="smallbee smallbee0">
+                            <img src="/rs/images/main/contents/img-smallbee0-0.png" alt=" "  />
+                        </div>
+                        <div class="smallbee smallbee1">
+                            <img src="/rs/images/main/contents/img-smallbee1-0.png" alt=" "  />
+                        </div>
+                        <div class="smallbee smallbee2">
+                            <img src="/rs/images/main/contents/img-smallbee2-0.png" alt=" " />
+                        </div>                       -->
+                                
+                        <div class="img-wrap smallmargin5" style="background:none; text-align:center;">
+                            <img src="./해태제과_files/img-bg-main2-1-1new.png" alt="">
+                            <!-- <img src="/rs/images/main/contents/img-bg-main2-1-1.png" alt=" " class="snack snack1" />
+                            <img src="/rs/images/main/contents/img-bg-main2-1-2.png" alt=" " class="snack snack2" />
+                            <img src="/rs/images/main/contents/img-bg-main2-1-0.png" alt=" " class="snack snack0" /> -->
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!-- //.staticSnack e -->
+
+        </div><!-- honey bg -->
+
+        
+    
+    
+
+        <div id="fullpage" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, 0px, 0px);">
+            <div class="section fp-section active fp-table" id="section0" data-anchor="haitaiMain" style="height: 912px;"><div class="fp-tableCell" style="height: 912px;"> 
+            </div></div><!-- //#section0 e firstPage -->
+
+            <div class="section fp-section fp-table" id="section1" data-anchor="company" style="height: 912px;"><div class="fp-tableCell" style="height: 912px;"> 
+                <div class="imgsContainer">
+                    <div class="hsContent ">
+                        <h2 class="caption">                                
+                            <img src="./해태제과_files/txt-main0.png" alt="달콤한 세상으로의 초대 해태제과는 늘 새롭고 달콤한 세상을 꿈꿉니다.">
+                        </h2>
+                        <ul class="main0 clearfix">
+                            <li class="fst"><img src="./해태제과_files/img-main0-0.png" alt="제과업계의 확실한 리더" id="rotate0" style="margin-left: -134px;"></li>
+                            <li class="snd"><img src="./해태제과_files/img-main0-1.png" alt="해태 Symbol" id="rotate1"></li>
+                            <li class="trd"><img src="./해태제과_files/img-main0-2.png" alt="Since 1945" id="rotate2" style="margin-left: 148px;"></li>
+                        </ul>
+                    </div><!-- //#slide0 .hsContent e -->
+                </div>
+            </div></div><!-- //#section1 e haitaiinfo -->
+            <div class="section fp-section fp-table" id="section2" data-anchor="bannerPage" style="height: 912px;"><div class="fp-tableCell" style="height: 912px;">             
+                <div class="imgsContainer">
+                    <div class="cont-wrap"> 
+                                <div class="shadows shadow0"></div>
+                                <div class="shadows shadow1"></div>
+                                <div class="shadows shadow2"></div>
+                                <div class="swiper-container main1-0">
+                                    <ul id="mNewproduct" class="swiper-wrapper clearfix" style="width: 1500px; height: 510px; transform: translate3d(-600px, 0px, 0px); transition-duration: 0.3s;"><li xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate" style="width: 300px; height: 510px;"><!-- 150921 수정했음요 -->
+                                                <a href="http://www.ht.co.kr/product/view/622" class="prdlist2" target="_self" onfocus="this.blur()" style="outline: none;">
+                                                    <img src="./해태제과_files/1650950110879270.png" alt=" " style="outline: none;">
+                                                    <span class="tit titprd">쿼카젤리</span>
+                                                    <span class="sub subprd">쿼카 모양의 무설탕 젤리!</span>                                         
+                                                </a>
+                                            </li> 
+                                    <!-- #mNewproduct 로 제어하세요 신상품리스트 뿌려주기.. 클래스들은 공통 스타일 제어용입니다.-->
+                                      
+                                            <!-- li class="swiper-slide">
+                                                
+                                                    
+                                                    <a href="http://www.ht.co.kr/product/view/619" class="prdlist0" target="_self">
+                                                
+                                                    <img src="/fileUpload/webMain/1650949985355655.png" alt=" " width="100%"/>
+                                                </a>
+                                            </li -->
+                                            <li class="swiper-slide" style="width: 300px; height: 510px;"><!-- 150921 수정했음요 -->
+                                                <a href="http://www.ht.co.kr/product/view/619" class="prdlist0" target="_self" onfocus="this.blur()" style="outline: none;">
+                                                    <img src="./해태제과_files/1650949985355655.png" alt=" " style="outline: none;">
+                                                    <span class="tit titprd">맛동산 꿀단지</span>
+                                                    <span class="sub subprd">아카시아꿀 &amp; 크리스탈 슈가를 넣어 달콤한 향을 덧입힌 봄 시즌 한정 맛동산!</span>                                         
+                                                </a>
+                                            </li>
+                                        
+                                            <!-- li class="swiper-slide">
+                                                
+                                                    
+                                                    <a href="http://www.ht.co.kr/product/view/509" class="prdlist1" target="_self">
+                                                
+                                                    <img src="/fileUpload/webMain/1650950037406898.png" alt=" " width="100%"/>
+                                                </a>
+                                            </li -->
+                                            <li class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 300px; height: 510px;"><!-- 150921 수정했음요 -->
+                                                <a href="http://www.ht.co.kr/product/view/509" class="prdlist1" target="_self" onfocus="this.blur()" style="outline: none;">
+                                                    <img src="./해태제과_files/1650950037406898.png" alt=" " style="outline: none;">
+                                                    <span class="tit titprd">얼초 동물그리기</span>
+                                                    <span class="sub subprd">'그리기' 타입으로 업그레이드된 얼초 시리즈!</span>                                         
+                                                </a>
+                                            </li>
+                                        
+                                            <!-- li class="swiper-slide">
+                                                
+                                                    
+                                                    <a href="http://www.ht.co.kr/product/view/622" class="prdlist2" target="_self">
+                                                
+                                                    <img src="/fileUpload/webMain/1650950110879270.png" alt=" " width="100%"/>
+                                                </a>
+                                            </li -->
+                                            <li class="swiper-slide" style="width: 300px; height: 510px;"><!-- 150921 수정했음요 -->
+                                                <a href="http://www.ht.co.kr/product/view/622" class="prdlist2" target="_self" onfocus="this.blur()" style="outline: none;">
+                                                    <img src="./해태제과_files/1650950110879270.png" alt=" " style="outline: none;">
+                                                    <span class="tit titprd">쿼카젤리</span>
+                                                    <span class="sub subprd">쿼카 모양의 무설탕 젤리!</span>                                         
+                                                </a>
+                                            </li>
+                                        
+                                    <li xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate" style="width: 300px; height: 510px;"><!-- 150921 수정했음요 -->
+                                                <a href="http://www.ht.co.kr/product/view/619" class="prdlist0" target="_self" onfocus="this.blur()" style="outline: none;">
+                                                    <img src="./해태제과_files/1650949985355655.png" alt=" " style="outline: none;">
+                                                    <span class="tit titprd">맛동산 꿀단지</span>
+                                                    <span class="sub subprd">아카시아꿀 &amp; 크리스탈 슈가를 넣어 달콤한 향을 덧입힌 봄 시즌 한정 맛동산!</span>                                         
+                                                </a>
+                                            </li></ul>
+                                    <!-- Add Pagination -->
+                                   <div class="swiper-pagination sp0"><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span></div>
+                                </div>
+                                <div class="swiper-container main1-1">
+                                    <ul id="mEventlist" class="swiper-wrapper clearfix" style="width: 1280px; height: 580px; transform: translate3d(-960px, 0px, 0px); transition-duration: 0.3s;"><li xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate" style="width: 320px; height: 580px;">
+                                                
+                                                    
+                                                    <a class="evtlist1 eventPop" data-regdate="2022-04-29 17:31:55.303" data-url="https://www.ht.co.kr:442/event/202205_LikeHoney/" target="_blank" onfocus="this.blur()" style="outline: none;"> <!-- 리스트 시 prdlist1 -->
+                                                    
+                                                
+                                                <img src="./해태제과_files/16512182324068.jpg" alt=" " width="100%" style="outline: none;"></a></li>
+                                        
+                                            <li class="swiper-slide" style="width: 320px; height: 580px;">
+                                                
+                                                    
+                                                    <a class="evtlist0 eventPop" data-regdate="2022-04-26 14:04:36.96" data-url="https://www.ht.co.kr:442/event/202203_FreeTimes/" target="_blank" onfocus="this.blur()" style="outline: none;"> <!-- 리스트 시 prdlist1 -->
+                                                    
+                                                
+                                                <img src="./해태제과_files/165094944291161.jpg" alt=" " width="100%" style="outline: none;"></a></li>
+                                        
+                                            <li class="swiper-slide" style="width: 320px; height: 580px;">
+                                                
+                                                    
+                                                    <a class="evtlist1 eventPop" data-regdate="2022-04-29 17:31:55.303" data-url="https://www.ht.co.kr:442/event/202205_LikeHoney/" target="_blank" onfocus="this.blur()" style="outline: none;"> <!-- 리스트 시 prdlist1 -->
+                                                    
+                                                
+                                                <img src="./해태제과_files/16512182324068.jpg" alt=" " width="100%" style="outline: none;"></a></li>
+                                         
+                                    <li xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active" style="width: 320px; height: 580px;">
+                                                
+                                                    
+                                                    <a class="evtlist0 eventPop" data-regdate="2022-04-26 14:04:36.96" data-url="https://www.ht.co.kr:442/event/202203_FreeTimes/" target="_blank" onfocus="this.blur()" style="outline: none;"> <!-- 리스트 시 prdlist1 -->
+                                                    
+                                                
+                                                <img src="./해태제과_files/165094944291161.jpg" alt=" " width="100%" style="outline: none;"></a></li></ul>
+                                    <script type="text/javascript">
+                                    $(function() {
+                                        $(".eventPop").click(function() {
+                                            var url = $(this).data('url');
+                                            var regDate = $(this).data('regdate');
+                                            var index = $(this).index();
+                                            var width = '630';
+                                            
+                                            var reg = new Date(regDate);
+                                            var today = new Date();
+                                            
+                                            //if(reg < today) {
+                                                window.open(url, '', 'width=800,height=950,toolbar=no,status=no,scrollbars=yes,resizable=no');
+                                            //}
+                                            
+                                        });
+                                    });
+                                    </script>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination sp1"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span></div>
+                                </div>
+                                <div class="swiper-container main1-2">
+                                    <ul id="mHaitaimall" class="swiper-wrapper clearfix" style="width: 900px; height: 510px; transform: translate3d(-600px, 0px, 0px); transition-duration: 0.3s;"><li xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide" style="width: 300px; height: 510px;">
+                                            
+                                                    
+                                                    <a href="https://www.haitaimall.co.kr/" class="malllist0" target="_blank" onfocus="this.blur()" style="outline: none;"> <!-- 리스트 시 prdlist1 -->
+                                                
+                                                <img src="./해태제과_files/1625719287708195.jpg" alt=" " width="100%" style="outline: none;">
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="swiper-slide" style="width: 300px; height: 510px;">
+                                            
+                                                    
+                                                    <a href="https://www.haitaimall.co.kr/" class="malllist0" target="_blank" onfocus="this.blur()" style="outline: none;"> <!-- 리스트 시 prdlist1 -->
+                                                
+                                                <img src="./해태제과_files/1625719287708195.jpg" alt=" " width="100%" style="outline: none;">
+                                            </a>
+                                        </li>
+                                        
+                                    <li xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 300px; height: 510px;">
+                                            
+                                                    
+                                                    <a href="https://www.haitaimall.co.kr/" class="malllist0" target="_blank" onfocus="this.blur()" style="outline: none;"> <!-- 리스트 시 prdlist1 -->
+                                                
+                                                <img src="./해태제과_files/1625719287708195.jpg" alt=" " width="100%" style="outline: none;">
+                                            </a>
+                                        </li></ul>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination sp2"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span></div>                                   
+                                </div>                              
+                            </div><!-- //.cont-wrap e -->                                   
+                </div>
+            </div></div><!-- //#section2 e notilist -->
+            <div class="section fp-section fp-table" id="section3" data-anchor="honeyStory" style="height: 912px;"><div class="fp-tableCell" style="height: 912px;"> 
+            
+            </div></div><!-- //#section3 e honeystory -->
+            <div class="section fp-section fp-table" id="section4" data-anchor="honeyStory2" style="height: 912px;"><div class="fp-tableCell" style="height: 912px;">         
+            </div></div><!-- //#section4 e honeyseries -->            
+            <div class="section fp-section fp-table" id="section5" data-anchor="sweetNews" style="height: 912px;"><div class="fp-tableCell" style="height: 912px;">
+                <div class="hsContainer" style="height: 834px; margin-top: -283px;">
+                    <h2 class="caption"><img src="./해태제과_files/tit-main3.png" alt="sweet news"></h2>
+                    <h3 class="caption tit-newsnoti"><img src="./해태제과_files/tit-main3-0.png" alt="Notice&amp;Press"></h3>
+                    <ul class="clearfix news-wrap news-wrap0" id="newsnoti"> <!-- #newsnoti 제어하셔요 ..클래스들은 공통 스타일 제어용입니다. -->
+                        
+                        <li class="noti0">
+                            <div class="cont-noti">
+                                <a href="http://www.ht.co.kr/sweet/noticeView/92718" class="clearfix" onfocus="this.blur()" style="outline: none;"><span class="red bold fl"><img src="./해태제과_files/txt-main6-0.png" alt="notice" style="outline: none;"></span><span class="date greylight fr">2018-11-28</span>
+                                <p class="tit-noti">더 강력한 농약관리! 농약 PLS 제도란?</p>
+                                <div class="txt-noti">농약 허용물질목록 관리제도(PLS)에 대해 알아봅시다‘농약 허용물질 목록 관리제도(PLS)’란 국내에서 사용되거나 수입식품에 사용되는 농약성분 등록과 잔류허용 기준이 설정된 농약을 제외한 기타 농약에 대하여 잔류허용 기준을 0.01mg/kg(ppm)으로 일률적 관리하는 제도를 말합니다. 최근 농수산물의 수입량도 증가하고 그 종류도 다양해짐에 따라 안정성이 확인되지 않는 농약을 사용한농산물로부터 국민의 건강을 보호하기위해 도입되었습니다.불법적인 농약의 사용을 금지하고 설정기준에 맞지않는 농약을 사용해서 재배한 농산물은검사시 부적합을 받아 앞으로 국내유통이 금지됩니다.이미 유럽, 일본 등 선진국에서는 도입되어 운영하고있는제도로 판매를 목적으로 하는 국내 농산물, 수입 농산물 및 농산물을 사용한 가공식품을 대상으로 적용하고 있습니다.우리나라는 2016년 12월부터 견과실종류 및 열대과일류에만 시행되어 왔으나2019년 1월 1일부터는 채소, 과일등 모든 농산물에 확대 시행됩니다.자세한 사항은 식품안전나라 홈페이지 PLS 자료실을 참고하세요바로가기?
+
+</div></a>
+                            </div>                          
+                        </li>
+                        
+                        
+                        
+                        <li class="noti1">
+                            <div class="cont-noti">
+                                <a href="http://www.ht.co.kr/sweet/reportView/92814" class="clearfix" onfocus="this.blur()" style="outline: none;"><span class="red bold fl"><img src="./해태제과_files/txt-main6-1.png" alt="press" style="outline: none;"></span><span class="date greylight fr">2022-04-14</span>
+                                <p class="tit-noti">해태, 세번째 빠삭 시리즈 ‘빠삭한 치즈감자’ 출시</p>
+                                <div class="txt-noti">미식의 나라 프랑스 가정식 ‘그라탕’ 담은 과자해태, 세번째 빠삭 시리즈 ‘빠삭한 치즈감자’ 출시해태제과(대표이사 신정훈)는 ‘빠삭’ 시리즈 3탄 ‘빠삭한 치즈감자’를 출시한다. 해물(빠새)과 치킨(빠닭)에 이어 새롭게 선보이는 요리 스낵이다.프랑스 대표음식 ‘그라탕’을 빠삭한 칩으로 구현했다. 정통 프렌치 요리의 깊은 맛을 바삭한 식감으로 부담없이 즐길 수 있는 제품이다.치즈와 감자는 MZ세대가 인정하는 ‘맛없없(맛이 없을 수 없는)’ 조합이다. 담백 고소한 감자에 꾸덕하고 진한 치즈가 더해지면서 중독성 강한 맛을 자랑하기 때문. 최근 SNS 핫플로 떠오른 유명 디저트 카페에서 치즈감자 메뉴가 1위를 차지하고 있을 정도다.해태제과는 빠삭 시리즈 노하우에 외식 트렌드를 적극 반영했다. 감자 식감을 살린 빠삭한 칩에 진한 치즈 풍미를 더해 누구나 맛있게 즐길 수 있는 요리 스낵이 탄생한 것.스낵 양면을 빗살무늬로 만들어 빠삭함은 물론 치즈와 감자 본연의 풍미가 더 진하다. 치즈감자맛이 스낵 사이 촘촘히 스며들어 더욱 풍부하게 느껴진다. 씹을 때 입안 가득 바삭 부숴져 식감도 경쾌하다.해태제과 관계자는 “네덜란드산 체다치즈와 프랑스산 파슬리를 넣어 오리지널 그라탕 스낵으로 완성한 제품”이라며“특유의 빠삭함과 치즈감자가 만나 젊은 소비자들에게 큰 호응을 얻을 것으로 기대한다 ”고 밝혔다.</div></a>
+                            </div>
+                        </li>
+                        
+                        <li class="noti2">
+                            <div class="cont-noti">
+                                <a href="http://www.ht.co.kr/sweet/reportView/92813" class="clearfix" onfocus="this.blur()" style="outline: none;"><span class="red bold fl"><img src="./해태제과_files/txt-main6-1.png" alt="press" style="outline: none;"></span><span class="date greylight fr">2022-04-08</span>
+                                <p class="tit-noti">국악의 새 이름 ‘한음’ 알리는 ‘제1회 한음회’ 성료</p>
+                                <div class="txt-noti">국악(國樂), 이제 ‘한음(韓音)’으로 즐기자!!국악의 새 이름 ‘한음’ 알리는 ‘제1회 한음회’ 성료전통 국악 명인명창의 樂·歌·舞를 한음 이름으로 즐기는 첫 공연크라운해태, 국악인들과 함께 한국음악 ‘한음’ 알리기 본격 나서안숙선, 이춘희 등 국악계를 대표하는 명인명창들과 민간기업이 힘을 모은 대형 국악공연이 열렸다. 한국음악, 한국인의 음악인 국악(國樂)의 새로운 이름 ‘한음(韓音)’을 알리기 위한 첫 공연이다.크라운해태제과(회장 윤영달)는 7일(목) 세종문화회관에서 전통 국악 명인명창들과 함께 ‘제1회 한음회’ 공연을 개최했다.이번에 처음으로 열린 한음회는 국악의 새로운 이름 ‘한음’으로 선보이는 대형공연이다. 명인명창들과 국악을 적극 후원해 온 크라운해태제과가 국악의 새로운 이름으로 ‘한음’을 제안하고 널리 알리기 위한 시도다.최고 명인들로 구성된 양주풍류악회의 ‘수제천’ 연주로 문을 연 이번 공연은, 이춘희, 안숙선, 왕기석 명창이 신명나는 경기민요와 창극 심청을 선보였고, 이어 정명숙, 진유림 명무의 살풀이와 북춤 공연으로 뜨거운 호응을 받았다.이날 공연은 한국음악의 연주(樂)와 노래(歌)에 춤(舞)을 ‘한음’이라는 특별한 이름으로 한자리에서 감상할 수 있어 더 큰 관심을 받았다.크라운해태제과 관계자는 “태극기, 애국가, 한글 처럼 대한민국을 대표하는 한국음악 국악의 특별한 이름으로 ‘한음’을 제안했다”며, “앞으로 한국의 전통음악이 ‘한음’이라는 이름으로 전 세계인들과 함께 즐길 수 있게 되기를 기대한다”고 밝혔다.크라운해태제과는 이번 공연을 계기로 더 많은 국민들과 국악의 새로운 이름 ‘한음’을 더 많은 국민들과 함께 즐길 수 있도록 다양한 공연을 선보일 계획이다.▲국악의 새이름 '한음'을 알리기 위해 크라운해태제과가 7일 세종문화회관에서 개최한 '제1회 한음회'에서 '이춘희' 명창이 '경기민요' 공연을 펼치고 있다
+
+
+
+▲국악의
+새이름 '한음'을 알리기 위해 크라운해태제과가 7일 세종문화회관에서 개최한 '제1회
+한음회'에서 '정명숙' 명무가 '살풀이' 공연을 펼치고 있다
+
+
+
+▲국악의
+새이름 '한음'을 알리기 위해 크라운해태제과가 7일 세종문화회관에서 개최한 '제1회
+한음회'에서 '진유림' 명무가 '승무' 공연을 펼치고 있다
+
+
+
+▲국악의
+새이름 '한음'을 알리기 위해 크라운해태제과가 7일 세종문화회관에서 개최한 '제1회
+한음회'에서 '강정숙' 명인이 '흥보가' 중 '제비노정기' 공연을 펼치고 있다
+
+
+
+▲국악의
+새이름 '한음'을 알리기 위해 크라운해태제과가 7일 세종문화회관에서 개최한 '제1회
+한음회'에서 '시나위' 공연을
+펼치고 있다
+
+
+
+▲국악의
+새이름 '한음'을 알리기 위해 크라운해태제과가 7일 세종문화회관에서 개최한 '제1회
+한음회'에서 '안숙선' 명창과 '왕기석' 명창이 창극 '심청' 공연을 펼치고 있다
+
+
+
+▲국악의 새이름 '한음'을 알리기 위해 크라운해태제과가 7일 세종문화회관에서 개최한 '제1회 한음회'에서 '양주풍류악회'가 '수제천' 공연을 펼치고 있다</div></a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <h3 class="caption tit-newsfacebook"><img src="./해태제과_files/tit-main3-1.png" alt="FACEBOOK"></h3>
+                    <ul class="clearfix news-wrap news-wrap1" id="newsfacebook"> <!-- #newsfacebook 제어하셔요 .. 클래스들은 공통 스타일 제어용입니다.-->
+                        <li class="noti0" style="margin-top: 5%; opacity: 0;"><div class="cont-noti"><div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/HaitaiCo" data-width="246" data-height="100%" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=898977593530135&amp;container_width=256&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FHaitaiCo&amp;locale=ko_KR&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;small_header=true&amp;width=246"><span style="vertical-align: bottom; width: 246px; height: 70px;"><iframe name="f109414e654d74" width="246px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./해태제과_files/page.html" style="border: none; visibility: visible; width: 246px; height: 70px;" class=""></iframe></span></div></div></li>
+                        <li class="noti1" id="facebookFeed1" style="margin-top: 5%; opacity: 0;">
+                            <div class="cont-noti">
+                                <a href="http://www.ht.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">
+                                    <div class="HfbTop clearfix">
+                                        <img src="./해태제과_files/img-test1.png" alt="Hfbthumb" class="Hfbthumb" style="outline: none;">
+                                        <p class="HfbName"></p>
+                                        <p class="HfbDate"></p>
+                                        <p class="HfbInfo"><span class="like"></span><span class="reply"></span><span class="scrap"></span></p>
+                                    </div>
+                                    <p class="HfbTxt"></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="noti2" id="facebookFeed2" style="margin-top: 5%; opacity: 0;">
+                            <div class="cont-noti">
+                                <a href="http://www.ht.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">
+                                    <div class="HfbTop clearfix">
+                                        <img src="./해태제과_files/img-test1.png" alt="Hfbthumb" class="Hfbthumb" style="outline: none;">
+                                        <p class="HfbName"></p>
+                                        <p class="HfbDate"></p>
+                                        <p class="HfbInfo"><span class="like"></span><span class="reply"></span><span class="scrap"></span></p>
+                                    </div>
+                                    <p class="HfbTxt"></p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div></div><!-- //#section5 e haitainews -->         
+            <div class="section fp-section fp-table" id="section6" data-anchor="haitaiLink" style="height: 912px;"><div class="fp-tableCell" style="height: 912px;">
+                <div class="hsContent" style="height: 834px; margin-top: -343px;">
+                    <h2 class="caption"><img src="./해태제과_files/tit-main4.png" alt="sweet news"></h2>
+                    <div class="link-wrap smallmargin4 clearfix">
+						
+					    <a href="https://www.instagram.com/haitai_co/" target="_blank" class="link0" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-6.png" alt="인스타그램" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-6.png" alt="인스타그램" style="outline: none;"></span>
+                        </a>
+						
+                        <a href="https://blog.naver.com/htlatte" target="_blank" class="link1" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-7.png" alt="블로그" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-7.png" alt="블로그" style="outline: none;"></span>
+                        </a>
+						
+                        <a href="https://m.post.naver.com/htlatte" target="_blank" class="link2" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-8.png" alt="네이버포스트" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-8.png" alt="네이버포스트" style="outline: none;"></span>
+                        </a>
+
+                        <a href="http://www.ht.co.kr/customer/faq" class="link3" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-0.png" alt="고객센터" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-0.png" alt="고객센터" style="outline: none;"></span>
+                        </a>
+                        <a href="http://www.ht.co.kr/introduce/map" class="link4" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-1.png" alt="오시는길" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-1.png" alt="오시는길" style="outline: none;"></span>
+                        </a>
+                        <a href="javascript:layerMain();" class="link5" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-2.png" alt="동반성장" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-2.png" alt="동반성장" style="outline: none;"></span>
+                        </a>
+
+                        <a href="http://recruit.ht.co.kr/" target="_blank" class="link6" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-3.png" alt="채용" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-3.png" alt="채용" style="outline: none;"></span>
+                        </a>
+                        <a href="https://www.haitaimall.co.kr/" target="_blank" class="link7" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-4.png" alt="해태몰" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-4.png" alt="해태몰" style="outline: none;"></span>
+                        </a>
+                        <a href="http://www.ibravo.com/web/home.aspx" target="_blank" class="link8" onfocus="this.blur()" style="outline: none;">
+                            <img src="./해태제과_files/img-main4-5.png" alt="아이브라보" class="hover" style="outline: none;">
+                            <span class="linktxt"><img src="./해태제과_files/txt-main4-5.png" alt="아이부라보" style="outline: none;"></span>
+                        </a>
+
+                    </div><!-- //.cont-wrap e -->
+                </div>
+                <div class="main-footer" id="main-footer" style="height: 0px;">
+                    <div class="footer-wrap">
+                        <h2><img src="./해태제과_files/logo-b.png" alt="해태"></h2>
+                        <div class="footer-links clearfix fl">
+                            <a href="http://www.ht.co.kr/service/personal" class="fl nomargin" onfocus="this.blur()" style="outline: none;">개인정보처리방침</a>
+                            <a href="http://www.ht.co.kr/service/email" class="fl thd" onfocus="this.blur()" style="outline: none;">이메일주소 무단 수집거부</a>
+                            <a href="http://www.ht.co.kr/customer/faq" class="fl last" onfocus="this.blur()" style="outline: none;">고객문의</a><br>
+                            <span class="copyright">COPYRIGHT (C) 2006 HAITAI CONFECTIONERY &amp; FOODS CO., LTD ALL RIGHTS RESERVED</span>
+                        </div><!-- footer-links e -->
+                        <img class="webaward" src="./해태제과_files/webaward.png" alt="제12회 웹어워드 코리아 중견기업 부문 최우수상">
+                        <div class="familysite-wrap">
+                            <ul class="familysiteon">
+                                <li><a href="http://www.ibravo.com/web/home.aspx" target="_blank" onfocus="this.blur()" style="outline: none;">- 아이부라보 </a></li>
+                                <li><a href="https://www.haitaimall.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">- 해태몰 </a></li>
+                                <li><a href="https://www.facebook.com/HaitaiCo" target="_blank" onfocus="this.blur()" style="outline: none;">- 해태제과 페이스북</a></li>
+                                <li><a href="http://hainuri.ht.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">- 해누리 </a></li>
+                                <li><a href="http://gume.ht.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">- 구매사이트 </a></li>
+                                <li><a href="http://www.art-block.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">- 아트블럭</a></li> 
+                                <li><a href="http://www.chitv.co.kr/" target="_blank" onfocus="this.blur()" style="outline: none;">- CHITV</a></li>
+                            </ul>
+                            <a href="javascript:showFamilysite();" class="familysite" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/btn-familysite.png" alt="family site" style="outline: none;"></a>
+                        </div>
+                        
+                    </div>
+                </div><!-- //.main-footer e -->             
+            </div></div><!-- //#section6 e haitailink -->
+        </div><!-- // #fullpage e -->
+
+    </div><!--//#wrap e -->
+
+
+<!-- layerMain -->
+<div class="dimmed"></div>
+<div class="layerMain">
+    <a href="javascript:layerMainclose()" class="btn_layerMainClose" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/btn_popclose.png" alt="닫기" style="outline: none;"></a>
+    <a href="javascript:;" class="btn_down btn_down0 download" data-newfilename="1.계약체결 가이드라인.pdf" data-orifilename="1.계약체결 가이드라인.pdf" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/btn_down.png" alt="download" style="outline: none;"></a>
+    <a href="javascript:;" class="btn_down btn_down1 download" data-newfilename="2.협력사 선정 가이드라인.pdf" data-orifilename="2.협력사 선정 가이드라인.pdf" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/btn_down.png" alt="download" style="outline: none;"></a>
+    <a href="javascript:;" class="btn_down btn_down2 download" data-newfilename="4.서면발급 가이드라인.pdf" data-orifilename="4.서면발급 가이드라인.pdf" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/btn_down.png" alt="download" style="outline: none;"></a>
+    <a href="javascript:;" class="btn_down btn_down3 download" data-newfilename="3.내부심의위원회 운용 가이드라인.pdf" data-orifilename="3.내부심의위원회 운용 가이드라인.pdf" onfocus="this.blur()" style="outline: none;"><img src="./해태제과_files/btn_down.png" alt="download" style="outline: none;"></a>
+</div>
+<!-- // .layerMain -->
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div></body></html>
